@@ -1,0 +1,1 @@
+cout<<cS[0]<<endl<<rS[0]<<endl;

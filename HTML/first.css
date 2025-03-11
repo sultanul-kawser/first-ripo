@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+    color: coral;
+    
+}
+
+.p1{
+    border: 3px red dotted;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#p2{
+    text-align: center;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    border-style: dashed;
+    color: white;
+}
+
+
+body{
+    background-image: url(2022-01-0221h4337png.png);
+    
+    background-position: center;
+    
+}
+
+.p3{
+    border: 3px white solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}

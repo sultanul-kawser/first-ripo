@@ -1,8 +1,1 @@
-if(first>second)
-    // {
-    //     cout<<"YES";
-    // }
-    // else 
-    // {
-    //     cout<<"NO";
-    // }
+last2digit = (multi3)%100;

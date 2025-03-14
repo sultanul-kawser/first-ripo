@@ -1,8 +1,9 @@
 #include<iostream>
+#include<string>
 using namespace std;
 int main()
 {
-    char S[100];
-    cin>>S;
+    string S;
+    getline(cin,S);
     cout<<"Hello, "<<S;
 }

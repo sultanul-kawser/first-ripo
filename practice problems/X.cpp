@@ -1,36 +1,20 @@
 #include <iostream>
+#include<cmath>
 using namespace std;
 int main()
 {
-    long long int a, b, c, d;
+    long long int a, b, c, d,first,second;
     cin >> a >> b >> c >> d;
-    if (c >= a && c <= b)
+    
+    if(a>d||c>b)
     {
-        if (b > c && b < d)
-        {
-            cout << c << " " << b;
-        }
-    }
-    else if (a >= c && a <= d)
-    {
-        if (d > a && d < b)
-        {
-            cout << a << " " << d;
-        }
-    }
-    else if (a == c && b == d)
-    {
-        if (a == c)
-        {
-            cout << a << " " << c;
-        }
-        else if (b == d)
-        {
-            cout << b << " " << d;
-        }
+        cout<<"-1";
     }
     else
     {
-        cout << "-1";
+        first = max(a,c);
+        second = min(b,d);
+        cout<<first<<" "<<second;
     }
+    
 }

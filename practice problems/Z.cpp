@@ -3,10 +3,12 @@
 using namespace std;
 int main()
 {
-    long long int a, b, c, d, first, second;
+    long long int a, b, c, d;
+    long double first, second;
     cin >> a >> b >> c >> d;
-    first = pow(a, b);
-    second = pow(c, d);
+
+    first = (long double)b * (log(a));
+    second = (long double)d * (log(c));
 
     if (first > second)
     {

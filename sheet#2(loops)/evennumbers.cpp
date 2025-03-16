@@ -4,7 +4,7 @@ int main()
 {
     int n;
     cin >> n;
-    if (n == 0)
+    if (n == 0 || n == 1)
     {
         cout << "-1\n";
     }

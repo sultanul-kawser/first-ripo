@@ -1,3 +1,1 @@
- // for(int m = 0; m<n; m++){
-    //     cout<<store[m]<<" ";
-    // }
+i/=10;

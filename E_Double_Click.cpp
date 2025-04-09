@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int timeOfdoubleClicked(int mouseClicked, int time[], int D)
+long int timeOfdoubleClicked(int mouseClicked, long int time[], long int D)
 {
     for (int i = 0; i < mouseClicked; i++)
     {
         for (int j = mouseClicked - 1; j >= 0; j--)
         {
-            if (j != i)
+            if (j != i && j > i)
             {
                 if (time[j] - time[i] <= D)
                 {
@@ -21,9 +21,10 @@ int timeOfdoubleClicked(int mouseClicked, int time[], int D)
 int main()
 {
 
-    int mouseClicked, D;
+    int mouseClicked;
+    long int D;
     cin >> mouseClicked >> D;
-    int time[mouseClicked];
+    long int time[mouseClicked];
     for (int i = 0; i < mouseClicked; i++)
     {
         cin >> time[i];

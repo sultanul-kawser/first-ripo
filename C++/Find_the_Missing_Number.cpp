@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<math.h>
-
+#include<iostream>
+#include<cmath>
+using namespace std;
 int checkNum(int nums[], long long int multi, int m){
     double realNum = (double)m/multi;
     int compNum = abs(realNum);
@@ -12,17 +12,17 @@ int checkNum(int nums[], long long int multi, int m){
 }
 int main(){
     int t; 
-    scanf("%d",&t);
+    cin>>t;
     for(int i = 0; i<t; i++){
         int m;
-        scanf("%d",&m);
+        cin>>m;
         int nums[3];
         long long int multi = 1;
         for(int j = 0; j<3 ;j++){
-            scanf("%d",&nums[j]);
+            cin>>nums[j];
             multi *= nums[j];
         }
-        printf("%d\n",checkNum(nums,multi,m));
+        cout<<checkNum(nums,multi,m)<<endl;
 
     }
 }

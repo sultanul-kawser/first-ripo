@@ -1,1 +1,7 @@
-  cout<<"_____|_____|_____""\n";
+ // while(i<j){
+    //     if(modString[i] != modString[j]){
+    //         cout<<":(";
+    //     }
+    //     i++;
+    //     j--;
+    // }

@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    char name[30];
-    scanf("%s",&name);
+    char name[30] = "jenin";
+   
     int i = 0; 
     while(name[i] != '\0'){
         i++;

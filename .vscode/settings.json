@@ -51,6 +51,7 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "SEPARATE.C": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "source_location": "cpp"
     }
 }
